@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System;
+using System.Collections.Generic;
 
 public class DownLoadManager 
 {
@@ -9,6 +10,7 @@ public class DownLoadManager
     public static string OutsideFilePath;
     public static string AsyncInsideFilePath;
     public static string AsyncOutsideFilePath;
+	private Dictionary<string,DownLoad> _download = new Dictionary<string, DownLoad>();
     public DownLoadManager()
     {
         if (_instance != null) throw new Exception("单例实例错误");
