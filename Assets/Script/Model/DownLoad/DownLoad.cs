@@ -143,14 +143,14 @@ public class DownLoad
         {
             _result += hash[i].ToString("x2");
         }
-        //_downPath = ABDLManager.OutsideFilePath + _result;
-        //_downAsyncPath = ABDLManager.AsyncOutsideFilePath + _result;
-        //if (!File.Exists(_downPath))
-        //{
-        //    _inSide = true;
-        //    _downPath = ABDLManager.InsideFilePath + _result;
-        //    _downAsyncPath = ABDLManager.AsyncInsideFilePath + _result;
-        //}
+        _downPath = DownLoadManager.OutsideFilePath + _result;
+        _downAsyncPath = DownLoadManager.AsyncOutsideFilePath + _result;
+        if (!File.Exists(_downPath))
+        {
+            _inSide = true;
+            _downPath = DownLoadManager.InsideFilePath + _result;
+            _downAsyncPath = DownLoadManager.AsyncInsideFilePath + _result;
+        }
     }
 
 	public void Dispose()
