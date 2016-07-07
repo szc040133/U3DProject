@@ -10,7 +10,7 @@ public class DownLoadManager
     public static string OutsideFilePath;
     public static string AsyncInsideFilePath;
     public static string AsyncOutsideFilePath;
-	private Dictionary<string,DownLoad> _download = new Dictionary<string, DownLoad>();
+    private Dictionary<string, DownLoad> _downloader = new Dictionary<string, DownLoad>();
     public DownLoadManager()
     {
         if (_instance != null) throw new Exception("单例实例错误");
@@ -45,5 +45,24 @@ public class DownLoadManager
         if (_instance != null) return _instance;
         return new DownLoadManager();
     }
-	
+
+    public DownLoad DownLoader(string path)
+    {
+        if (path.IndexOf('.') == -1)
+        {
+            Debug.LogError("PathError: " + path);
+            path += ".prefab";
+        }
+        if (!_downloader.ContainsKey(path))
+            _downloader.Add(path, new DownLoad(path));
+        return _downloader[path];
+    }
+
+    public void Dispose()
+    {
+      foreach(var data in _downloader)
+      {
+          data.Value.Dispose();
+      }
+    }
 }
