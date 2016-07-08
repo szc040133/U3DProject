@@ -40,6 +40,4 @@ public class WindowBase : MonoBehaviour
             _callBack = null;
         }
     }
-
-
 }
