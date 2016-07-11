@@ -10,19 +10,24 @@ public class WindowBaseServer
     private int _depth;
     private bool _isActive;
     private int _layer = -1;
+    private ResDownLoader _downLoader;
+    private string _sign = DownUtils.WindowSign;
   
     /// <summary>
     /// 打开窗体
     /// </summary>
     /// <param name="layer">层级</param>
     /// <param name="depth">深度</param>
-    public virtual void Open(int layer,int depth)
+    public virtual void Open(int layer, int depth, params object[] args)
     {
         if (_isOpening) return;
         _isOpening = true;
         _sortingOrder = layer;
         _depth = depth;
+        SetParam(args);
        //加载资源。。
+        _downLoader = new ResDownLoader(_assetPath, _sign, false);
+        _downLoader.Load(delegate { Init(); });
     }
 
     /// <summary>
@@ -32,7 +37,7 @@ public class WindowBaseServer
     {
         if (!_isOpening || _root != null) return;
         _isOpening = false;
-        Object obj = new Object();//ABDLManager.GetInstance().GetAsset(_assetPath[0]);
+        Object obj = DownLoadManager.GetInstance().GetAsset(_assetPath[0]);
         _root = (GameObject)Object.Instantiate(obj, Vector3.zero, Quaternion.identity);
         _root.name = obj.name;
         UIPanel[] panels = _root.GetComponentsInChildren<UIPanel>(true);
@@ -63,12 +68,19 @@ public class WindowBaseServer
 
     }
 
+    public virtual void SetParam(object[] param) { }
+
+
     /// <summary>
     /// 关闭窗体
     /// </summary>
     public virtual void Close()
     {
-        _isActive = false;
+        _isOpening = false;
+        if (_root == null) return;
+        WindowBase winbase = _root.GetComponent<WindowBase>();
+        if (winbase != null) winbase.Close(Destory);
+        else Destory();
     }
 
     /// <summary>
@@ -76,11 +88,13 @@ public class WindowBaseServer
     /// </summary>
     public virtual void Destory()
     {
-
+        NGUITools.Destroy(_root);
+        _root = null;
+        _isActive = false;
     }
 
     /// <summary>
-    /// 是否已经打开正在显示
+    /// 是否已经打开状态
     /// </summary>
     public bool IsActive { get { return _isActive; } }
 }

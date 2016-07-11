@@ -23,18 +23,28 @@ public class DownLoad
     private string _downAsyncPath;
     private bool _unload = true;
     private bool _bundleUnload;
+    private List<string> _sign = new List<string>();
+    private string _singleSin = "None";
 
 	public DownLoad(string path)
 	{
 		_path = path;
+        RunDownPath(path);
 		_name = System.IO.Path.GetFileName (path);
 		_name = _name.Remove(_name.IndexOf('.'));
 		_monoManger = MonoManaer.GetInstance ();
         if (path.StartsWith("CS")) _isBundle = false;
 	}
 
-	public void Load(DownLoadComplete complete,bool async)
+    public void AddSign(string sign)
+    {
+        if (!_sign.Contains(sign)) _sign.Add(sign);
+    }
+
+	public void Load(DownLoadComplete complete,bool async,string sign)
 	{
+        _singleSin = sign;
+        AddSign(sign);
         _unload = false; 
 		switch(_state)
 		{
@@ -45,13 +55,32 @@ public class DownLoad
                 else _monoManger.StartCoroutine(AsyncDownLoader());
 				    break;
 		    case DownLoadState.Runing:
-			    _complete.Add (complete);
+			    _complete.Add(complete);
 				    break;
 		    case DownLoadState.Complete:
 			    complete (this);
 				    break;
 		}
 	}
+
+    public void UnLoad(string sign)
+    {
+        _sign.Remove(sign);
+        if (_sign.Count > 0 || _state == DownLoadState.None) return;
+        UnLoad();
+    }
+
+    public void UnLoadUnnecessary(string[] signs)
+    {
+        if (_state == DownLoadState.None) return;
+        List<string> signlist = new List<string>();
+        for (int i = 0; i < signs.Length;i++ )
+        {
+            if (_sign.Contains(signs[i])) signlist.Add(signs[i]);//已经存在就不用再这里卸载了了
+        }
+        if (signlist.Count <= 0) UnLoad();
+        _sign = signlist;
+    }
 
 	private void DownLoader()
 	{
@@ -155,12 +184,17 @@ public class DownLoad
 
 	public void Dispose()
 	{
+        _sign.Clear();
         UnLoad();
 	}
 
     public Object Asset { get { return _asset; } }
 
     public string Path { get { return _path; } }
+
+    public DownLoadState State { get { return _state; } }
+
+    public string SingleSign { get { return _singleSin; } }
 
 }
 

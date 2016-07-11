@@ -19,19 +19,38 @@ public class ResDownLoader
     private int _loadIndex;
     public int FpsNum = 3;
     private int _nowFpsNum;
+    private string _sign;
 
-    private void Initialize(string[] path,bool async)
+    public ResDownLoader(string path,string sign,bool async = false)
+    {
+        Initialize(new string[]{path},async,sign);
+    }
+
+    public ResDownLoader(string[] paths ,string sign,bool async = false)
+    {
+        Initialize(paths, async, sign);
+    }
+
+    private void Initialize(string[] path,bool async,string sign)
     {
         _downManager = DownLoadManager.GetInstance();
         _monoManager = MonoManaer.GetInstance();
         _path = path;
         _async = async;
+        _sign = sign;
+        _loadPath = _downManager.GetDependenices(path, true);
+        for (int i = 0; i < _loadPath.Length; i++)
+        {
+            _downLoader.Add(_downManager.DownLoader(_loadPath[i]));
+        }
+    }
 
-        //_loadPath = DownLoadManager.GetDependencies(path, true);
-        //for (int i = 0; i < _loadPath.Length; i++)
-        //{
-        //    _downLoader.Add(DownLoadManager.DownLoader(_loadPath[i]));
-        //}
+    public void AddSign()
+    {
+        for(int i=0;i<_downLoader.Count;i++)
+        {
+            _downLoader[i].AddSign(_sign);
+        }
     }
 
     public void Load(ResDownLoaderComplete complete=null,ResDownLoaderProgress progress = null)
@@ -84,7 +103,7 @@ public class ResDownLoader
         }
         _nowFpsNum++;
         _loadIndex++;
-        _downLoader[_loadIndex - 1].Load(DownLoader, _async);
+        _downLoader[_loadIndex - 1].Load(DownLoader, _async,_sign);
     }
 
 
@@ -102,6 +121,19 @@ public class ResDownLoader
         _progress.Clear();
         _completeCount = _loadIndex = 0;
         _state = DownLoadState.None;
+    }
+
+    public void Unload()
+    {
+        if (_state == DownLoadState.None) return;
+        _completeCount = _loadIndex = 0;
+        _completes.Clear();
+        _progress.Clear();
+        _state = DownLoadState.None;
+        for (int i = 0; i < _downLoader.Count; i++)
+        {
+            _downLoader[i].UnLoad(_sign);
+        }
     }
 
     public float Progress

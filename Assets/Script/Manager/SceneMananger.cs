@@ -51,6 +51,8 @@ public class SceneMananger : MonoBehaviour
 		else if(id == 2) _levelType = LevelType.Fight;
 	}
 
+    public static LevelType LevelType { get { return _levelType; } }
+
 	public void Dispose()
 	{
 		_secene.Dsetory();

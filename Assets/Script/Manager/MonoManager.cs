@@ -14,7 +14,7 @@ public class MonoManaer : MonoBehaviour
 		if (_instance != null)
 			return _instance;
 		GameObject go = new GameObject ("MonoManaer");
-		DontDestroyOnLoad (go);
+		DontDestroyOnLoad(go);
 		return go.AddComponent<MonoManaer> ();
 	}
 
