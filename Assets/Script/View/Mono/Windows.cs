@@ -21,6 +21,7 @@ public class Windows
         return "View/Mono/" + name +".prefab";
     }
 
+	public const string LoginView = "LoginView";
     public const string BagView = "BagView";
 
 }

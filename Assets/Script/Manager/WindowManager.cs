@@ -95,7 +95,7 @@ public class WindowManager
             for (int i = 0; i < _willAddList.Count; i++)
             {
                 ViewData data = _willAddList[i];
-                Add(data);
+				Add(data.Name);
             }
             _willAddList.Clear();
         }
@@ -115,16 +115,23 @@ public class WindowManager
         _addList.Clear();
     }
 
-    public void Add(ViewData winData)
+	public void Add(string name,params object[] args)
     {
-        if (_isLoading)
-        {
-            AddWhenEnterScene(winData);
-            return;
-        }
+		ViewData winData = GetWinData (name, WindowType.Remove, args);
+		if (_isLoading)
+		{
+			AddWhenEnterScene (winData);
+			return;
+		}
         _addList.Add(winData);
         winData.Open(0);
     }
+
+	public ViewData GetWinData(string name,WindowType type,params object[] args)
+	{
+		ViewData data = new ViewData (name, type, args);
+		return data;
+	}
 
     public void Remove(string name)
     {
