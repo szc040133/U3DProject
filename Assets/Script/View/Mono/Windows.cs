@@ -18,7 +18,7 @@ public class Windows
 
     public static string GetViewPathByName(string name)
     {
-        return "View/Mono/" + name +".prefab";
+        return WinPathUtils.GetWinPathByName(name);
     }
 
 	public const string LoginView = "LoginView";

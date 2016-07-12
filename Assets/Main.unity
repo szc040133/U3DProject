@@ -75,41 +75,41 @@ NavMeshSettings:
     heightInaccuracy: 10
     tileSizeHint: 0
   m_NavMesh: {fileID: 0}
---- !u!1 &246737469
+--- !u!1 &467322616
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 246737471}
-  - 114: {fileID: 246737470}
+  - 4: {fileID: 467322618}
+  - 114: {fileID: 467322617}
   m_Layer: 0
-  m_Name: Start
+  m_Name: StartGame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &246737470
+--- !u!114 &467322617
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 246737469}
+  m_GameObject: {fileID: 467322616}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1119208be72d41479c0304d50b3d1af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &246737471
+--- !u!4 &467322618
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 246737469}
+  m_GameObject: {fileID: 467322616}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .340187311, y: -1.01930559, z: .0830078125}
+  m_LocalPosition: {x: .134301275, y: -.0653357506, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

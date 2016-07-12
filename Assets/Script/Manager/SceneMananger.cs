@@ -11,20 +11,19 @@ public class SceneMananger : MonoBehaviour
 	{
 		switch(_levelType)
 		{
-		case LevelType.Login:
-			
-			break;
-		case LevelType.City:
-			break;
-		case LevelType.Fight:
-			break;
-			
+		    case LevelType.Login:
+                _secene = new LoginScene(_levelId);
+			    break;
+		    case LevelType.City:
+			    break;
+		    case LevelType.Fight:
+			    break;
 		}
 	}
 
 	void Start()
 	{
-		
+        _secene.Start();
 	}
 
 	public static void EnterScene(int id,Vector3 birthPostion=default(Vector3),Vector3 birthRotion=default(Vector3))

@@ -19,6 +19,7 @@ public class ServerManager
         _winBaseDic = new Dictionary<string, WindowBaseServer>
         {
             {Windows.BagView, new BagServer()},
+            {Windows.LoginView,new LoginServer()},
         };
     }
 

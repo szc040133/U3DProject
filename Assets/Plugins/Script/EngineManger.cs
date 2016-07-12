@@ -9,6 +9,7 @@ public class EngineManger
     public string OutsideUrl;
     public string InsideUrl;
     public OperatingSystem OS;
+    public static bool IsDownLoader = false;
 
 	private EngineManger()
 	{

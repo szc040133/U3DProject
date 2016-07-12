@@ -33,7 +33,7 @@ public class DownLoad
 		_name = System.IO.Path.GetFileName (path);
 		_name = _name.Remove(_name.IndexOf('.'));
 		_monoManger = MonoManaer.GetInstance ();
-        if (path.StartsWith("CS")) _isBundle = false;
+        if (path.StartsWith("CS") || !EngineManger.IsDownLoader) _isBundle = false;
 	}
 
     public void AddSign(string sign)
