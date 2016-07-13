@@ -11,6 +11,7 @@ public class WinPathUtils
         {
             {Windows.LoginView,Path.LoginView},
             {Windows.BagView,Path.BagView},
+            {Windows.LoadingView,Path.LoadingView},
         };
     }
 
@@ -29,4 +30,5 @@ public class Path
 {
     public const string LoginView = "View/Login/LoginView.prefab";
     public const string BagView = "View/Bag/BagView.prefab";
+    public const string LoadingView = "View/Loading/LoadingWin.prefab";
 }

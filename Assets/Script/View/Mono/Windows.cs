@@ -23,5 +23,6 @@ public class Windows
 
 	public const string LoginView = "LoginView";
     public const string BagView = "BagView";
+    public const string LoadingView = "LoadingView";
 
 }

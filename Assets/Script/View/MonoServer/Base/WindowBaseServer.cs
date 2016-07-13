@@ -11,7 +11,7 @@ public class WindowBaseServer
     private bool _isActive;
     private int _layer = -1;
     private ResDownLoader _downLoader;
-    private string _sign = DownUtils.WindowSign;
+    protected string _sign = DownUtils.WindowSign;
   
     /// <summary>
     /// 打开窗体

@@ -4,6 +4,7 @@ using System.Collections;
 public class SceneBase
 {
     protected WindowManager _winManager;
+    protected CameraManager _cameraManager;
 
 	protected int _id;               //场景ID
 	protected float _level = 1f;     //关卡等级
@@ -17,6 +18,7 @@ public class SceneBase
         _levelType = SceneMananger.LevelType;
         _inScene = true;
         //初始化一些manager
+        _cameraManager = CameraManager.GetInstance();
         _winManager = WindowManager.GetInstance();
 	}
 
