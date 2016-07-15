@@ -17,7 +17,7 @@ public class ResDownLoader
     private string[] _loadPath;
     private int _completeCount;
     private int _loadIndex;
-    public int FpsNum = 3;
+    public int FpsNum = 0;
     private int _nowFpsNum;
     private string _sign;
 

@@ -16,6 +16,7 @@ public class LoginView : WindowBase
     private void Onclick(GameObject go)
     {
        //加载第二个场景
+
     }
 
     protected override void Start()
