@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: NX-C-ZiYinZhenRn-06-M-Face
+  m_Shader: {fileID: 4800000, guid: bce31a94a3f4bab40a5ecd98947ef738, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: cb629087a0fc9994b949020d092e4ecc, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: bd119638bed8f184cae9e1f523e42fb9, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecIllumReflTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 06538d7a6bbf9ce41946b59b801f2b36, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecRamp
+        second:
+          m_Texture: {fileID: 2800000, guid: b20c01476f0d63e4482c2963f2d705dc, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecColorTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 73d502ea20df6bf4c90e1c75ee3c86b6, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LookupSkinDiffuseSpec
+        second:
+          m_Texture: {fileID: 2800000, guid: 79bcd817c95ab204fa14d8e2d064959d, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: .078125
+      data:
+        first:
+          name: _RimWidth
+        second: 0
+      data:
+        first:
+          name: _SpecIntensity
+        second: 0
+      data:
+        first:
+          name: _ScatteringOffset
+        second: 0
+      data:
+        first:
+          name: _ScatteringPower
+        second: 1
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: .948529422, b: .948529422, a: 1}
+      data:
+        first:
+          name: _RimColor
+        second: {r: 1, g: 1, b: 1, a: 1}

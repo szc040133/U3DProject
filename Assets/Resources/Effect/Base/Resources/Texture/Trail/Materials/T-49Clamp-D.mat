@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: T-49Clamp-D
+  m_Shader: {fileID: 4800000, guid: 5a44a97a15feeb34bba8c9028ef977df, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 8b1bbae28ee415e4a8822a050530125c, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NoiseTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 0bee2764a444a5643ac30b10bba46ce3, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _HeatTime
+        second: 0
+      data:
+        first:
+          name: _ForceX
+        second: 0
+      data:
+        first:
+          name: _ForceY
+        second: .100000001
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .81708622, g: .581314862, b: .941176474, a: .501960814}
+      data:
+        first:
+          name: _TintColor
+        second: {r: .81708622, g: .581314862, b: .941176474, a: .501960814}

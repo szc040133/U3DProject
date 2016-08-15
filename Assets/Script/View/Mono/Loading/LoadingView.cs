@@ -19,6 +19,7 @@ public class LoadingView : MonoBehaviour
         _tipGo = _bg.Find("TipsBg").gameObject;
         _tipGo.SetActive(false);
         DontDestroyOnLoad(gameObject);
+        Application.LoadLevel("Loading");
     }
 
     IEnumerator Start()

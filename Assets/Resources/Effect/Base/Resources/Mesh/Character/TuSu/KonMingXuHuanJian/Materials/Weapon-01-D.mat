@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Weapon-01-D
+  m_Shader: {fileID: 4800000, guid: 77cc4a383478aa74c928a300e66e7f39, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 73cad0b11775bb54981ed71d8d88257a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: f56770888fb03de43a60f8b2797e63e8, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecIllumReflTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 4bc50f098e3c4f94f9578b32c7da01f2, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecRamp
+        second:
+          m_Texture: {fileID: 2800000, guid: b20c01476f0d63e4482c2963f2d705dc, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DissolveTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 0bee2764a444a5643ac30b10bba46ce3, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: .722235501
+      data:
+        first:
+          name: _Amount
+        second: 0
+      data:
+        first:
+          name: _StartAmount
+        second: .100000001
+      data:
+        first:
+          name: _Illuminate
+        second: .089285709
+      data:
+        first:
+          name: _Tile
+        second: 1
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .838235259, g: .838235259, b: .838235259, a: 1}
+      data:
+        first:
+          name: _DissColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _ColorAnimate
+        second: {r: 1, g: 1, b: 1, a: 1}

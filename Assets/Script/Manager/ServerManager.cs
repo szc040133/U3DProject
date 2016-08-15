@@ -20,6 +20,7 @@ public class ServerManager
         {
             {Windows.BagView, new BagServer()},
             {Windows.LoginView,new LoginServer()},
+            {Windows.LoadingView,new LoadingServer()},
         };
     }
 

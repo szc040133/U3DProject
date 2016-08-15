@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: NX-C-ZiYinZhenRn-03-M-Body
+  m_Shader: {fileID: 4800000, guid: cdae462ef12895149a580f8a8afa858a, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 654b05671d85aed489f8aacf580b1c96, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 40260affe18bcaa469ddfef89656ca3d, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecIllumReflTex
+        second:
+          m_Texture: {fileID: 2800000, guid: d53c02ffe0c601b4dac22194b4f4effb, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _AlphaTex
+        second:
+          m_Texture: {fileID: 2800000, guid: b0a2b3db7246b8d409f648c60de0a7e1, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecRamp
+        second:
+          m_Texture: {fileID: 2800000, guid: b20c01476f0d63e4482c2963f2d705dc, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 8900000, guid: 147a20c8eda70ec4d87b5d1d33a19ff3, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecColorTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 0afe1dc7b365d8e4ab23bf66072520a1, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+      data:
+        first:
+          name: _Cull
+        second: 0
+      data:
+        first:
+          name: _IllumStrength
+        second: 0
+      data:
+        first:
+          name: _Shininess
+        second: .296143711
+      data:
+        first:
+          name: _RimWidth
+        second: 0
+      data:
+        first:
+          name: _SpecIntensity
+        second: 1
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .838235259, g: .782763779, b: .782763779, a: 1}
+      data:
+        first:
+          name: _RimColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _ReflectColor
+        second: {r: .406813025, g: .402249128, b: .441176474, a: 1}

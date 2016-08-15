@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: d537cceb9dc04f64d9a94ca0cd75ca22
+ShaderImporter:
+  defaultTextures:
+  - _MainTex: {instanceID: 0}
+  - _SpecIllumReflTex: {instanceID: 0}
+  - _SpecRamp: {fileID: 2800000, guid: b20c01476f0d63e4482c2963f2d705dc, type: 3}
+  - _DissolveTex: {instanceID: 0}
+  userData: 

@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: JY-S5-2-D
+  m_Shader: {fileID: 4800000, guid: 5a44a97a15feeb34bba8c9028ef977df, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 0aabe21b9a3cdaa43a30f14ef4a02ddf, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 505f1afe78d53bf49a22137fdf712c83, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecIllumReflTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NoiseTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 0bee2764a444a5643ac30b10bba46ce3, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecRamp
+        second:
+          m_Texture: {fileID: 2800000, guid: b20c01476f0d63e4482c2963f2d705dc, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DissolveTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 1ef18d18d1f03534caddfe0ac79f1d66, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 0d3aa317186d3734ebcdb3bc8010e49b, type: 3}
+          m_Scale: {x: 1, y: .5}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+      data:
+        first:
+          name: _Cull
+        second: 2
+      data:
+        first:
+          name: _IllumStrength
+        second: .479999989
+      data:
+        first:
+          name: _Shininess
+        second: .0973410755
+      data:
+        first:
+          name: _HeatTime
+        second: -.0357142873
+      data:
+        first:
+          name: _ForceX
+        second: .367857128
+      data:
+        first:
+          name: _ForceY
+        second: .153571397
+      data:
+        first:
+          name: _RimWidth
+        second: 1
+      data:
+        first:
+          name: _Brightness
+        second: 2
+      data:
+        first:
+          name: _Amount
+        second: .428571433
+      data:
+        first:
+          name: _StartAmount
+        second: .0299999993
+      data:
+        first:
+          name: _Illuminate
+        second: .596428573
+      data:
+        first:
+          name: _Tile
+        second: 1
+      data:
+        first:
+          name: _Scroll2X
+        second: 1
+      data:
+        first:
+          name: _Scroll2Y
+        second: -.0500000007
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .5, g: .5, b: .5, a: .5}
+      data:
+        first:
+          name: _TintColor
+        second: {r: .5, g: .5, b: .5, a: .5}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .595588207, g: .91632849, b: 1, a: 1}
+      data:
+        first:
+          name: _RimColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _DissColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _ColorAnimate
+        second: {r: 0, g: 0, b: 1, a: 0}

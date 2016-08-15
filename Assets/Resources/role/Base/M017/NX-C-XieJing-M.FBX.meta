@@ -1,0 +1,167 @@
+fileFormatVersion: 2
+guid: ccd509f653c96d24d830843d0a7c9d93
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Bone003
+    100002: Bone004
+    100004: Bone005
+    100006: Bone006
+    100008: Bone007
+    100010: Bone008
+    100012: Bone009
+    100014: Bone010
+    100016: Bone011
+    100018: Bone012
+    100020: Bone013
+    100022: Bone015
+    100024: Bone016
+    100026: Bone017
+    100028: Bone018
+    100030: Bone020
+    100032: Bone021
+    100034: Bone022
+    100036: Bone023
+    100038: Bone024
+    100040: Bone026
+    100042: Bone027
+    100044: Bone028
+    100046: Bone029
+    100048: Bone031
+    100050: Bone032
+    100052: Bone033
+    100054: Bone034
+    100056: Bone041
+    100058: Bone042
+    100060: Bone044
+    100062: Bone045
+    100064: Bone046
+    100066: Bone048
+    100068: Bone054
+    100070: Bone055
+    100072: Bone056
+    100074: Bone057
+    100076: Bone058
+    100078: Bone059
+    100080: Bone060
+    100082: Bone061
+    100084: Bone062
+    100086: Bone063
+    100088: FxBody
+    100090: FxFootLeft
+    100092: 'FxFootRight '
+    100094: FxHandLeft
+    100096: FxHandRight
+    100098: FxHead
+    100100: //RootNode
+    100102: NX-C-XieJing-M
+    400000: Bone003
+    400002: Bone004
+    400004: Bone005
+    400006: Bone006
+    400008: Bone007
+    400010: Bone008
+    400012: Bone009
+    400014: Bone010
+    400016: Bone011
+    400018: Bone012
+    400020: Bone013
+    400022: Bone015
+    400024: Bone016
+    400026: Bone017
+    400028: Bone018
+    400030: Bone020
+    400032: Bone021
+    400034: Bone022
+    400036: Bone023
+    400038: Bone024
+    400040: Bone026
+    400042: Bone027
+    400044: Bone028
+    400046: Bone029
+    400048: Bone031
+    400050: Bone032
+    400052: Bone033
+    400054: Bone034
+    400056: Bone041
+    400058: Bone042
+    400060: Bone044
+    400062: Bone045
+    400064: Bone046
+    400066: Bone048
+    400068: Bone054
+    400070: Bone055
+    400072: Bone056
+    400074: Bone057
+    400076: Bone058
+    400078: Bone059
+    400080: Bone060
+    400082: Bone061
+    400084: Bone062
+    400086: Bone063
+    400088: FxBody
+    400090: FxFootLeft
+    400092: 'FxFootRight '
+    400094: FxHandLeft
+    400096: FxHandRight
+    400098: FxHead
+    400100: //RootNode
+    400102: NX-C-XieJing-M
+    4300000: NX-C-XieJing-M
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: NX-C-XieJing-M
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

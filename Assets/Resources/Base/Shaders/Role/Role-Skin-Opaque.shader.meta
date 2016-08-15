@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: bce31a94a3f4bab40a5ecd98947ef738
+ShaderImporter:
+  defaultTextures:
+  - _MainTex: {instanceID: 0}
+  - _BumpMap: {instanceID: 0}
+  - _SpecColorTex: {instanceID: 0}
+  - _SpecIllumReflTex: {instanceID: 0}
+  - _LookupSkinDiffuseSpec: {fileID: 2800000, guid: 79bcd817c95ab204fa14d8e2d064959d,
+      type: 3}
+  - _SpecRamp: {fileID: 2800000, guid: b20c01476f0d63e4482c2963f2d705dc, type: 3}
+  userData: 

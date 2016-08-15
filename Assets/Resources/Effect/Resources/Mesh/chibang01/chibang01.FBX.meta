@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: ff7cebe9c8e7347499122a332f5eeab9
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ci  Bone027
+    100004: cibang
+    100006: Bone027
+    100008: Bone028
+    100010: Bone029
+    100012: Bone030
+    100014: Bone031
+    100016: Bone032
+    100018: Bone035
+    100020: Bone036
+    100022: Bone037
+    100024: Bone038
+    100026: Bone040
+    100028: Bone041
+    100030: Bone042
+    100032: Bone043
+    100034: Bone044
+    100036: Bone045
+    100038: Bone047
+    100040: Bone048
+    100042: Bone049
+    100044: Bone051
+    100046: Bone068
+    100048: Bone069
+    100050: Bone070
+    100052: Bone071
+    100054: Bone072
+    100056: Bone075
+    100058: Bone077
+    100060: Bone078
+    100062: Bone079
+    100064: Bone080
+    100066: Bone081
+    100068: Bone082
+    100070: Bone083
+    100072: Bone085
+    100074: Bone086
+    100076: Bone087
+    400000: //RootNode
+    400002: ci  Bone027
+    400004: cibang
+    400006: Bone027
+    400008: Bone028
+    400010: Bone029
+    400012: Bone030
+    400014: Bone031
+    400016: Bone032
+    400018: Bone035
+    400020: Bone036
+    400022: Bone037
+    400024: Bone038
+    400026: Bone040
+    400028: Bone041
+    400030: Bone042
+    400032: Bone043
+    400034: Bone044
+    400036: Bone045
+    400038: Bone047
+    400040: Bone048
+    400042: Bone049
+    400044: Bone051
+    400046: Bone068
+    400048: Bone069
+    400050: Bone070
+    400052: Bone071
+    400054: Bone072
+    400056: Bone075
+    400058: Bone077
+    400060: Bone078
+    400062: Bone079
+    400064: Bone080
+    400066: Bone081
+    400068: Bone082
+    400070: Bone083
+    400072: Bone085
+    400074: Bone086
+    400076: Bone087
+    4300000: cibang
+    7400000: Take 001
+    7400002: idle
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: cibang
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 73
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ci  Bone027
+        weight: 1
+      - path: ci  Bone027/Bone027
+        weight: 1
+      - path: ci  Bone027/Bone027/Bone028
+        weight: 1
+      - path: ci  Bone027/Bone027/Bone028/Bone029
+        weight: 1
+      - path: ci  Bone027/Bone027/Bone028/Bone029/Bone030
+        weight: 1
+      - path: ci  Bone027/Bone027/Bone028/Bone029/Bone030/Bone031
+        weight: 1
+      - path: ci  Bone027/Bone027/Bone028/Bone029/Bone030/Bone031/Bone032
+        weight: 1
+      - path: ci  Bone027/Bone027/Bone035
+        weight: 1
+      - path: ci  Bone027/Bone027/Bone035/Bone036
+        weight: 1
+      - path: ci  Bone027/Bone027/Bone035/Bone036/Bone037
+        weight: 1
+      - path: ci  Bone027/Bone027/Bone035/Bone036/Bone037/Bone038
+        weight: 1
+      - path: ci  Bone027/Bone040
+        weight: 1
+      - path: ci  Bone027/Bone040/Bone041
+        weight: 1
+      - path: ci  Bone027/Bone040/Bone041/Bone042
+        weight: 1
+      - path: ci  Bone027/Bone040/Bone041/Bone042/Bone043
+        weight: 1
+      - path: ci  Bone027/Bone040/Bone041/Bone042/Bone043/Bone044
+        weight: 1
+      - path: ci  Bone027/Bone040/Bone041/Bone042/Bone043/Bone044/Bone045
+        weight: 1
+      - path: ci  Bone027/Bone040/Bone049
+        weight: 1
+      - path: ci  Bone027/Bone040/Bone049/Bone047
+        weight: 1
+      - path: ci  Bone027/Bone040/Bone049/Bone047/Bone048
+        weight: 1
+      - path: ci  Bone027/Bone040/Bone049/Bone047/Bone048/Bone051
+        weight: 1
+      - path: ci  Bone027/Bone068
+        weight: 1
+      - path: ci  Bone027/Bone068/Bone069
+        weight: 1
+      - path: ci  Bone027/Bone068/Bone069/Bone070
+        weight: 1
+      - path: ci  Bone027/Bone068/Bone069/Bone070/Bone071
+        weight: 1
+      - path: ci  Bone027/Bone068/Bone069/Bone070/Bone071/Bone072
+        weight: 1
+      - path: ci  Bone027/Bone068/Bone075
+        weight: 1
+      - path: ci  Bone027/Bone068/Bone075/Bone078
+        weight: 1
+      - path: ci  Bone027/Bone068/Bone075/Bone078/Bone077
+        weight: 1
+      - path: ci  Bone027/Bone079
+        weight: 1
+      - path: ci  Bone027/Bone079/Bone080
+        weight: 1
+      - path: ci  Bone027/Bone079/Bone080/Bone081
+        weight: 1
+      - path: ci  Bone027/Bone079/Bone080/Bone081/Bone082
+        weight: 1
+      - path: ci  Bone027/Bone079/Bone080/Bone081/Bone082/Bone083
+        weight: 1
+      - path: ci  Bone027/Bone079/Bone085
+        weight: 1
+      - path: ci  Bone027/Bone079/Bone085/Bone086
+        weight: 1
+      - path: ci  Bone027/Bone079/Bone085/Bone086/Bone087
+        weight: 1
+      - path: cibang
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 30.1000004
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ci  Bone027
+        weight: 1
+      - path: ci  Bone027/Bone027
+        weight: 1
+      - path: ci  Bone027/Bone027/Bone028
+        weight: 1
+      - path: ci  Bone027/Bone027/Bone028/Bone029
+        weight: 1
+      - path: ci  Bone027/Bone027/Bone028/Bone029/Bone030
+        weight: 1
+      - path: ci  Bone027/Bone027/Bone028/Bone029/Bone030/Bone031
+        weight: 1
+      - path: ci  Bone027/Bone027/Bone028/Bone029/Bone030/Bone031/Bone032
+        weight: 1
+      - path: ci  Bone027/Bone027/Bone035
+        weight: 1
+      - path: ci  Bone027/Bone027/Bone035/Bone036
+        weight: 1
+      - path: ci  Bone027/Bone027/Bone035/Bone036/Bone037
+        weight: 1
+      - path: ci  Bone027/Bone027/Bone035/Bone036/Bone037/Bone038
+        weight: 1
+      - path: ci  Bone027/Bone040
+        weight: 1
+      - path: ci  Bone027/Bone040/Bone041
+        weight: 1
+      - path: ci  Bone027/Bone040/Bone041/Bone042
+        weight: 1
+      - path: ci  Bone027/Bone040/Bone041/Bone042/Bone043
+        weight: 1
+      - path: ci  Bone027/Bone040/Bone041/Bone042/Bone043/Bone044
+        weight: 1
+      - path: ci  Bone027/Bone040/Bone041/Bone042/Bone043/Bone044/Bone045
+        weight: 1
+      - path: ci  Bone027/Bone040/Bone049
+        weight: 1
+      - path: ci  Bone027/Bone040/Bone049/Bone047
+        weight: 1
+      - path: ci  Bone027/Bone040/Bone049/Bone047/Bone048
+        weight: 1
+      - path: ci  Bone027/Bone040/Bone049/Bone047/Bone048/Bone051
+        weight: 1
+      - path: ci  Bone027/Bone068
+        weight: 1
+      - path: ci  Bone027/Bone068/Bone069
+        weight: 1
+      - path: ci  Bone027/Bone068/Bone069/Bone070
+        weight: 1
+      - path: ci  Bone027/Bone068/Bone069/Bone070/Bone071
+        weight: 1
+      - path: ci  Bone027/Bone068/Bone069/Bone070/Bone071/Bone072
+        weight: 1
+      - path: ci  Bone027/Bone068/Bone075
+        weight: 1
+      - path: ci  Bone027/Bone068/Bone075/Bone078
+        weight: 1
+      - path: ci  Bone027/Bone068/Bone075/Bone078/Bone077
+        weight: 1
+      - path: ci  Bone027/Bone079
+        weight: 1
+      - path: ci  Bone027/Bone079/Bone080
+        weight: 1
+      - path: ci  Bone027/Bone079/Bone080/Bone081
+        weight: 1
+      - path: ci  Bone027/Bone079/Bone080/Bone081/Bone082
+        weight: 1
+      - path: ci  Bone027/Bone079/Bone080/Bone081/Bone082/Bone083
+        weight: 1
+      - path: ci  Bone027/Bone079/Bone085
+        weight: 1
+      - path: ci  Bone027/Bone079/Bone085/Bone086
+        weight: 1
+      - path: ci  Bone027/Bone079/Bone085/Bone086/Bone087
+        weight: 1
+      - path: cibang
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

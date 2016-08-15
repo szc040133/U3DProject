@@ -16,7 +16,15 @@ public class LoginView : WindowBase
     private void Onclick(GameObject go)
     {
        //加载第二个场景
+        StartCoroutine(StartGame());
+    }
 
+
+    IEnumerator StartGame()
+    {
+        ServerManager.GetServerByName(Windows.LoginView).Close();
+        yield return new WaitForSeconds(0.1f);
+        SceneMananger.EnterScene(2);
     }
 
     protected override void Start()

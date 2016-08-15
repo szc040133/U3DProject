@@ -94,8 +94,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Battle
-    x: 379
-    y: 249
+    x: 949
+    y: 588
     width: 57
     height: 55
     borderLeft: 0
@@ -106,8 +106,21 @@ MonoBehaviour:
     paddingRight: 3
     paddingTop: 2
     paddingBottom: 3
+  - name: bg
+    x: 169
+    y: 6
+    width: 44
+    height: 44
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: Button Blue A
-    x: 771
+    x: 423
     y: 657
     width: 173
     height: 73
@@ -133,8 +146,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Button Plus
-    x: 765
-    y: 580
+    x: 437
+    y: 253
     width: 25
     height: 25
     borderLeft: 0
@@ -146,7 +159,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Button Red A
-    x: 423
+    x: 597
     y: 657
     width: 173
     height: 73
@@ -159,8 +172,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Button Red B
-    x: 235
-    y: 644
+    x: 493
+    y: 746
     width: 187
     height: 86
     borderLeft: 0
@@ -180,10 +193,10 @@ MonoBehaviour:
     borderRight: 0
     borderTop: 0
     borderBottom: 0
-    paddingLeft: 3
-    paddingRight: 2
-    paddingTop: 3
-    paddingBottom: 3
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: Button Round Background
     x: 471
     y: 504
@@ -215,11 +228,11 @@ MonoBehaviour:
     y: 395
     width: 38
     height: 37
-    borderLeft: 0
+    borderLeft: 5
     borderRight: 0
-    borderTop: 0
+    borderTop: 5
     borderBottom: 0
-    paddingLeft: 1
+    paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
@@ -228,14 +241,14 @@ MonoBehaviour:
     y: 191
     width: 95
     height: 93
-    borderLeft: 0
+    borderLeft: 3
     borderRight: 0
-    borderTop: 0
+    borderTop: 2
     borderBottom: 0
     paddingLeft: 0
-    paddingRight: 3
+    paddingRight: 0
     paddingTop: 0
-    paddingBottom: 3
+    paddingBottom: 0
   - name: Button X
     x: 193
     y: 357
@@ -250,7 +263,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Button Yellow A
-    x: 597
+    x: 771
     y: 657
     width: 173
     height: 73
@@ -263,8 +276,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Button Yellow B
-    x: 493
-    y: 746
+    x: 235
+    y: 644
     width: 187
     height: 86
     borderLeft: 0
@@ -302,8 +315,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Dialogue
-    x: 327
-    y: 129
+    x: 708
+    y: 578
     width: 29
     height: 27
     borderLeft: 0
@@ -316,7 +329,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: Engine
     x: 327
-    y: 157
+    y: 127
     width: 25
     height: 33
     borderLeft: 0
@@ -328,8 +341,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Heart
-    x: 736
-    y: 580
+    x: 437
+    y: 279
     width: 28
     height: 25
     borderLeft: 0
@@ -367,8 +380,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: inventory - 01
-    x: 949
-    y: 588
+    x: 379
+    y: 249
     width: 57
     height: 55
     borderLeft: 0
@@ -445,8 +458,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 22
   - name: Leave
-    x: 169
-    y: 12
+    x: 958
+    y: 733
     width: 48
     height: 38
     borderLeft: 0
@@ -497,45 +510,6 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Leave 5
-    x: 744
-    y: 908
-    width: 233
-    height: 116
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 1
-    paddingTop: 0
-    paddingBottom: 0
-  - name: Leave 6
-    x: 958
-    y: 732
-    width: 44
-    height: 39
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: Leave 7
-    x: 978
-    y: 895
-    width: 44
-    height: 39
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: Level Up
     x: 0
     y: 183
     width: 233
@@ -548,9 +522,48 @@ MonoBehaviour:
     paddingRight: 1
     paddingTop: 0
     paddingBottom: 0
+  - name: Leave 6
+    x: 978
+    y: 895
+    width: 44
+    height: 39
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Leave 7
+    x: 331
+    y: 245
+    width: 44
+    height: 39
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Level Up
+    x: 744
+    y: 908
+    width: 233
+    height: 116
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 0
   - name: Lock
-    x: 355
-    y: 99
+    x: 356
+    y: 97
     width: 22
     height: 29
     borderLeft: 0
@@ -575,7 +588,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Ok
-    x: 708
+    x: 738
     y: 578
     width: 27
     height: 27
@@ -706,7 +719,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: Settings
     x: 331
-    y: 253
+    y: 213
     width: 30
     height: 31
     borderLeft: 0
@@ -719,7 +732,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: Shield
     x: 353
-    y: 160
+    y: 130
     width: 25
     height: 30
     borderLeft: 0
@@ -796,8 +809,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Star
-    x: 327
-    y: 101
+    x: 766
+    y: 578
     width: 27
     height: 27
     borderLeft: 0
@@ -913,8 +926,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Thumb
-    x: 331
-    y: 223
+    x: 327
+    y: 161
     width: 29
     height: 29
     borderLeft: 0
@@ -956,17 +969,17 @@ MonoBehaviour:
     y: 1
     width: 23
     height: 23
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
+    borderLeft: 10
+    borderRight: 10
+    borderTop: 10
+    borderBottom: 10
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: Time
-    x: 331
-    y: 193
+    x: 327
+    y: 97
     width: 28
     height: 29
     borderLeft: 0
@@ -1017,8 +1030,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: X
-    x: 437
-    y: 277
+    x: 438
+    y: 221
     width: 23
     height: 27
     borderLeft: 0

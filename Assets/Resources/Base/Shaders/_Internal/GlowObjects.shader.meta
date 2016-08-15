@@ -1,0 +1,8 @@
+fileFormatVersion: 2
+guid: c58a21a41043c26489172e7b149ec225
+ShaderImporter:
+  defaultTextures:
+  - _BumpMap: {instanceID: 0}
+  - _SpecIllumReflTex: {instanceID: 0}
+  - _SpecRamp: {instanceID: 0}
+  userData: 

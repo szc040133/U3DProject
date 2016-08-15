@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+using System.Collections.Generic;
+using System.Linq;
+using UnityEngine;
 public class SceneMananger : MonoBehaviour
 {
 	private static SceneBase _secene;
@@ -19,6 +21,7 @@ public class SceneMananger : MonoBehaviour
 		    case LevelType.Fight:
 			    break;
 		}
+        ServerManager.GetServerByName(Windows.LoadingView).Close();
 	}
 
 	void Start()
@@ -31,14 +34,20 @@ public class SceneMananger : MonoBehaviour
 		if(_secene!=null) _secene.Dsetory();
 		_levelId = id;
 		SetLevelTypeById(id);
+        string sign = DownUtils.LevelSign;
+        string[] dependencies = { };
 		switch(_levelType)
 		{
 			case LevelType.Login:
-			     Application.LoadLevel("Login");
+                Application.LoadLevel("Main");
 			    break;
 			case LevelType.City:
 				break;
 			case LevelType.Fight:
+                var scene = new List<string>();
+                scene.Add("Scene/Level/boss1.unity");
+                dependencies = scene.Distinct().ToArray();
+                ((LoadingServer)ServerManager.GetServerByName(Windows.LoadingView)).EnterScene(dependencies, "boss1", sign);
 				break;
 		}
 	}

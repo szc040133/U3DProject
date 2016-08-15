@@ -1,0 +1,8 @@
+fileFormatVersion: 2
+guid: 941251a15a93fa541afcc5967ecce5e3
+ShaderImporter:
+  defaultTextures:
+  - _SceneTex: {instanceID: 0}
+  - _NoiseTex: {fileID: 2800000, guid: 0bee2764a444a5643ac30b10bba46ce3, type: 3}
+  - _AlphaTex: {fileID: 2800000, guid: b07450ebcebe0914ea860d301f957bd7, type: 3}
+  userData: 

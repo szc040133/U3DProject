@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 69a22fb0079c0de448ee86be0d3921bf
+ShaderImporter:
+  defaultTextures:
+  - _MainTex: {instanceID: 0}
+  - _AlphaTex: {instanceID: 0}
+  - _BumpMap: {instanceID: 0}
+  - _SpecColorTex: {instanceID: 0}
+  - _Cube: {instanceID: 0}
+  - _SpecIllumReflTex: {instanceID: 0}
+  - _SpecRamp: {instanceID: 0}
+  userData: 

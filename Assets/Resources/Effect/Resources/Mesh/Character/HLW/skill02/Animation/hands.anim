@@ -1,0 +1,382 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: hands
+  serializedVersion: 4
+  m_AnimationType: 2
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: .266666681
+        value: 0
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 1.70000005
+        value: 0
+        inSlope: 0
+        outSlope: 10.0000095
+        tangentMode: 21
+      - time: 1.79999995
+        value: 1
+        inSlope: 10.0000095
+        outSlope: -7.50000048
+        tangentMode: 21
+      - time: 1.93333328
+        value: 0
+        inSlope: -7.50000048
+        outSlope: -9.99999809
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: material._Color.r
+    path: hand/NX-C-huanglingwang-B
+    classID: 137
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .710344791
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: .266666681
+        value: .710344791
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 1.70000005
+        value: .710344791
+        inSlope: 0
+        outSlope: 12.8965645
+        tangentMode: 21
+      - time: 1.79999995
+        value: 2
+        inSlope: 12.8965645
+        outSlope: -9.67241478
+        tangentMode: 21
+      - time: 1.93333328
+        value: .710344791
+        inSlope: -9.67241478
+        outSlope: -12.8965492
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: material._Color.g
+    path: hand/NX-C-huanglingwang-B
+    classID: 137
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: .266666681
+        value: 1
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 1.70000005
+        value: 1
+        inSlope: 0
+        outSlope: 20.0000191
+        tangentMode: 21
+      - time: 1.79999995
+        value: 3
+        inSlope: 20.0000191
+        outSlope: -15.000001
+        tangentMode: 21
+      - time: 1.93333328
+        value: 1
+        inSlope: -15.000001
+        outSlope: -19.9999962
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: material._Color.b
+    path: hand/NX-C-huanglingwang-B
+    classID: 137
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 1.88235295
+        outSlope: 1.125
+        tangentMode: 21
+      - time: .266666681
+        value: .300000012
+        inSlope: 1.125
+        outSlope: .222222224
+        tangentMode: 21
+      - time: 1.16666663
+        value: .5
+        inSlope: .222222224
+        outSlope: .00367652555
+        tangentMode: 21
+      - time: 1.70000005
+        value: .501960814
+        inSlope: .00367652555
+        outSlope: 1.98039365
+        tangentMode: 21
+      - time: 1.79999995
+        value: .699999988
+        inSlope: 1.98039365
+        outSlope: -0
+        tangentMode: 21
+      - time: 1.93333328
+        value: .699999988
+        inSlope: 0
+        outSlope: -1.5
+        tangentMode: 21
+      - time: 2.0666666
+        value: .5
+        inSlope: -1.5
+        outSlope: -0
+        tangentMode: 21
+      - time: 2.13333344
+        value: .5
+        inSlope: 0
+        outSlope: -2.50000238
+        tangentMode: 21
+      - time: 2.33333325
+        value: 0
+        inSlope: -2.50000238
+        outSlope: -3.7499969
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: material._Color.a
+    path: hand/NX-C-huanglingwang-B
+    classID: 137
+    script: {fileID: 0}
+  m_PPtrCurves: []
+  m_SampleRate: 30
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - path: 3651397681
+      attribute: 1303350129
+      script: {fileID: 0}
+      classID: 137
+      customType: 22
+      isPPtrCurve: 0
+    - path: 3651397681
+      attribute: 1571785585
+      script: {fileID: 0}
+      classID: 137
+      customType: 22
+      isPPtrCurve: 0
+    - path: 3651397681
+      attribute: 1840221041
+      script: {fileID: 0}
+      classID: 137
+      customType: 22
+      isPPtrCurve: 0
+    - path: 3651397681
+      attribute: 2108656497
+      script: {fileID: 0}
+      classID: 137
+      customType: 22
+      isPPtrCurve: 0
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: 2.33333325
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: .266666681
+        value: 0
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 1.70000005
+        value: 0
+        inSlope: 0
+        outSlope: 10.0000095
+        tangentMode: 21
+      - time: 1.79999995
+        value: 1
+        inSlope: 10.0000095
+        outSlope: -7.50000048
+        tangentMode: 21
+      - time: 1.93333328
+        value: 0
+        inSlope: -7.50000048
+        outSlope: -9.99999809
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: material._Color.r
+    path: hand/NX-C-huanglingwang-B
+    classID: 137
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .710344791
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: .266666681
+        value: .710344791
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 1.70000005
+        value: .710344791
+        inSlope: 0
+        outSlope: 12.8965645
+        tangentMode: 21
+      - time: 1.79999995
+        value: 2
+        inSlope: 12.8965645
+        outSlope: -9.67241478
+        tangentMode: 21
+      - time: 1.93333328
+        value: .710344791
+        inSlope: -9.67241478
+        outSlope: -12.8965492
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: material._Color.g
+    path: hand/NX-C-huanglingwang-B
+    classID: 137
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: .266666681
+        value: 1
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 1.70000005
+        value: 1
+        inSlope: 0
+        outSlope: 20.0000191
+        tangentMode: 21
+      - time: 1.79999995
+        value: 3
+        inSlope: 20.0000191
+        outSlope: -15.000001
+        tangentMode: 21
+      - time: 1.93333328
+        value: 1
+        inSlope: -15.000001
+        outSlope: -19.9999962
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: material._Color.b
+    path: hand/NX-C-huanglingwang-B
+    classID: 137
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 1.88235295
+        outSlope: 1.125
+        tangentMode: 21
+      - time: .266666681
+        value: .300000012
+        inSlope: 1.125
+        outSlope: .222222224
+        tangentMode: 21
+      - time: 1.16666663
+        value: .5
+        inSlope: .222222224
+        outSlope: .00367652555
+        tangentMode: 21
+      - time: 1.70000005
+        value: .501960814
+        inSlope: .00367652555
+        outSlope: 1.98039365
+        tangentMode: 21
+      - time: 1.79999995
+        value: .699999988
+        inSlope: 1.98039365
+        outSlope: -0
+        tangentMode: 21
+      - time: 1.93333328
+        value: .699999988
+        inSlope: 0
+        outSlope: -1.5
+        tangentMode: 21
+      - time: 2.0666666
+        value: .5
+        inSlope: -1.5
+        outSlope: -0
+        tangentMode: 21
+      - time: 2.13333344
+        value: .5
+        inSlope: 0
+        outSlope: -2.50000238
+        tangentMode: 21
+      - time: 2.33333325
+        value: 0
+        inSlope: -2.50000238
+        outSlope: -3.7499969
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: material._Color.a
+    path: hand/NX-C-huanglingwang-B
+    classID: 137
+    script: {fileID: 0}
+  m_EulerEditorCurves: []
+  m_Events: []
