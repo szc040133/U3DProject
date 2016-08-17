@@ -16,7 +16,8 @@ public class SkillManager
 
     public void Play(SkillInterFace interFace,int id)
     {
-        new SkillUtil(interFace, id);
+        SkillUtil skllutil = new SkillUtil(interFace, id);
+        skllutil.Play();
     }
 
     /// <summary>

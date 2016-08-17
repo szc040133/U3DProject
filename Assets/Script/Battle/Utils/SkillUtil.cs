@@ -11,10 +11,11 @@ public class SkillUtil
     {
         _interFace = interFace;
         _skillID = id;
+        _skillvo = interFace.SkillVo;
     }
 
 
-    private void Play()
+    public void Play()
     {
         string content ="";//技能内容
         switch (content)
@@ -49,7 +50,7 @@ public class SkillUtil
     /// </summary>
     public void BattleBuff()
     {
-
+        
     }
 
     private void Update()

@@ -19,6 +19,7 @@ public class SceneMananger : MonoBehaviour
 		    case LevelType.City:
 			    break;
 		    case LevelType.Fight:
+                _secene = new FightScene(_levelId);
 			    break;
 		}
         ServerManager.GetServerByName(Windows.LoadingView).Close();
