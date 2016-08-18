@@ -13,7 +13,8 @@ public class BattleEffectMgr
 
     public void Play(SkillVo data)
     {
-
+        new BattleEffect(data);
+        
     }
 
 

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class SingleEffect 
+public class SingleEffect:SingleEffectChild
 {
     /// <summary>
     /// 特效ID
@@ -46,7 +46,7 @@ public class SingleEffect
                 InitShow(_tfEffect);
             }
         }
-        
+        GetParticle();
     }
 
     private void InitShow(Transform tf)
@@ -56,5 +56,11 @@ public class SingleEffect
         _tfEffect.parent = _tf;
         _tfEffect.localPosition = Vector3.zero;
         _tfEffect.localRotation = Quaternion.identity;
+    }
+
+    public void Destory()
+    {
+        if (_tfEffect != null)
+            GameObject.Destroy(_tf.gameObject);
     }
 }

@@ -13,6 +13,6 @@ public class BattleActionMgr
 
     public void Play(SkillVo data)
     {
-        new BattleEffect(data);
+      
     }
 }

@@ -10,6 +10,6 @@ public class Battleeffect : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	  //_unit_of_EffectConfig
+	  //
 	}
 }
